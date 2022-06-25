@@ -1,0 +1,22 @@
+# directories
+.yarn/
+artifacts/
+build/
+cache/
+coverage/
+dist/
+lib/
+node_modules/
+.openzeppelin/
+typechain-types/
+
+# files
+*.env
+*.log
+*.tsbuildinfo
+.pnp.*
+coverage.json
+gasReporterOutput.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
