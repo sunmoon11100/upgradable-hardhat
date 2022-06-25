@@ -13,7 +13,7 @@
 		"block-number": "npx hardhat block-number",
 		"deploy": "npx hardhat run scripts/deploy.ts",
 		"test": "npx hardhat test",
-		"lint": "npx solhint 'contracts/**/*.sol' --fix && lint-staged",
+		"lint": "solhint 'contracts/**/*.sol' --fix && lint-staged",
 		"coverage": "npx hardhat coverage",
 		"account": "npx hardhat accounts",
 		"postinstall": "husky install"
